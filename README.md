@@ -212,3 +212,4 @@ Exemplo de resposta.
 | Header     | Tipo     | Descrição           |
 | :--------- | :------- | :------------------ |
 | `username` | `string` | Username do usuário |
+
