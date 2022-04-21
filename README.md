@@ -1,6 +1,9 @@
 # Uma simples Api CRUD com NodeJs e Express.
 
-O objetivo deste projeto é criar uma simples api crud aplicando conceito de REST API, middleware e outros.
+O objetivo deste projeto é criar uma simples aplicação de gerenciamento de tarefas "TODO".
+Aplicando conceito de REST API, CRUD, middleware e outros.
+
+---
 
 ## Sumário:
   * Introdução.
@@ -16,6 +19,7 @@ O objetivo deste projeto é criar uma simples api crud aplicando conceito de RES
     * Finalizar uma tarefa.
     * Apagar uma tarefa.
 
+---
 
 # Introdução
 
