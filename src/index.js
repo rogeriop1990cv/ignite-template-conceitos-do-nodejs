@@ -101,6 +101,14 @@ app.patch("/todos/:id/done", checksExistsUserAccount, (request, response) => {
 
   const taskFound = user.todos.find((task) => task.id === id);
 
+  if(!taskFound) {
+    return response.status(404).json(
+      {
+        error: 'task not found'
+      }
+    )
+  }
+
   taskFound.done = true;
 
   return response.status(200).json(taskFound);
