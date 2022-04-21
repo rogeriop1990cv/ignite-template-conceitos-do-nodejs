@@ -2,8 +2,24 @@
 
 O objetivo deste projeto é criar uma simples api crud aplicando conceito de REST API, middleware e outros.
 
+## Sumário:
+  * Introdução.
+    * O que é CRUD?
+    * O que é uma REST API?
+  * Funcionalidades
+  * Stack utilizada
+  * Documentação da API
+    * Criar um novo usuário
+    * Lista com todas as tarefas de um usuário.
+    * Criar uma nova tarefa.
+    * Atualizar o `title` e `deadline`.
+    * Finalizar uma tarefa.
+    * Apagar uma tarefa.
+
+
 # Introdução
 
+O que é CRUD?
 Resumindo CRUD é a composição da primeira letra de 4 funções básicas de um sistema que trabalha com banco de dados.
 
 | Letra | Tipo        | Descrição                        |
@@ -26,7 +42,7 @@ Como toda API, ela conecta dados armazenados em uma plataforma e “transfere”
 
 ---
 
-## Funcionalidades
+# Funcionalidades
 
 - Criar um novo _todo_.
 - Listar todos os _todos_.
@@ -34,11 +50,11 @@ Como toda API, ela conecta dados armazenados em uma plataforma e “transfere”
 - Marcar um _todo_ como feito.
 - Excluir um _todo_.
 
-## Stack utilizada
+# Stack utilizada
 
 **Back-end:** NodeJs, Express
 
-## Documentação da API
+# Documentação da API
 
 #### Criar um novo usuário
 
