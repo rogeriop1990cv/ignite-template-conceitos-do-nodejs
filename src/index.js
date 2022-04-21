@@ -120,6 +120,13 @@ app.delete("/todos/:id", checksExistsUserAccount, (request, response) => {
 
   const taskFoundIndex = user.todos.findIndex((task) => task.id === id);
 
+  if(taskFoundIndex === -1) {
+    return response.status(404).json(
+      {
+        error: 'task not found'
+      }
+    )
+  }
   user.todos.splice(taskFoundIndex, 1)
 
   return response.status(204).send();
